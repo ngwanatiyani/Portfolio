@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Tiyani Ngwana</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+  
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <a href="index.html">
+        <h2>Tiyani Ngwana</h2>
+      </a>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="about-container">
+      <h1 class="about-title">About Tiyani Ngwana</h1>
+      <p class="about-description">
+        I am an IT professional passionate about technology and the future of digital innovation. 
+        I have a deep interest in solving real-world problems using technology, and I am constantly learning new skills to stay ahead in this fast-evolving field.
+      </p>
+
+      <div class="about-goals">
+        <h2>Background and Goals</h2>
+        <p>
+          As a seasoned IT professional with a strong foundation in software development, web design, and cloud computing, I strive to make technology more accessible and 
+          intuitive for businesses and individuals. My goal is to leverage my skills to drive innovation, solve complex problems, and help organizations streamline their 
+          processes through automation and digital transformation.
+        </p>
+        <p>
+          I am highly committed to continuous learning and growth. My focus areas include AI, data science, and full-stack development. By staying at the forefront of 
+          these technologies, I aim to build solutions that can positively impact society and push the boundaries of what’s possible with technology.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio-section">
+    <div class="portfolio-container">
+      <h1 class="portfolio-title">Portfolio</h1>
+      <div class="project-gallery">
+        <div class="project">
+          <img src="images/t6.jpg" alt="Project 1">
+          <h3 class="project-title">Project One</h3>
+          <p>A web application showcasing advanced JavaScript features and a clean design.</p>
+        </div>
+
+        <div class="project">
+          <img src="images/t3.png" alt="Project 2">
+          <h3 class="project-title">Project Two</h3>
+          <p>A brief description of Project 3. A personal portfolio site that showcases web development and design skills.
+             Technologies Used: HTML & CSS.</p>
+        </div>
+        <section class="video-section">
+          <div class="video-container">
+            <h2>Featured Videos</h2>
+            <div class="videos-grid">
+              <div class="video-item">
+                <iframe src="videos/v1.mp4" frameborder="0" allowfullscreen></iframe>
+                <p class="video-description">Video 1: Project Overview</p>
+              </div>
+              <div class="video-item">
+                <iframe src="videos/v2.mp4" frameborder="0" allowfullscreen></iframe>
+                <p class="video-description">Video 2: Behind the Scenes</p>
+              </div>
+              <div class="video-item">
+                <iframe src="videos/v3.mp4" frameborder="0" allowfullscreen></iframe>
+                <p class="video-description">Video 3: Client Testimonial</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <footer>
+            <div class="footer-container">
+              <p>&copy; 2024 Tiyani Ngwana. All Rights Reserved.</p>
+              
+            </div>
+          </footer>
+
+          <style>
+            body {
+              background-color: #F1D3B2;
+              margin: 0;
+              font-family: "Poppins", sans-serif;
+            }
+        
+            * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+            }
+        
+            a {
+              text-decoration: none;
+              color: inherit;
+            }
+        
+            nav {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 20px 100px;
+              background-color: #F1D3B2;
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+        
+            nav ul {
+              display: flex;
+              list-style: none;
+            }
+        
+            nav ul li {
+              margin: 0 20px;
+            }
+        
+            nav ul li a {
+              font-size: 16px;
+              color: #1d1d24;
+              padding: 5px 0;
+              position: relative;
+            }
+        
+            nav ul li a:hover {
+              color: #1e847f;
+            }
+        
+            nav ul li a:after {
+              content: "";
+              position: absolute;
+              left: 0;
+              width: 0;
+              height: 3px;
+              background: #F1D3B2;
+              transition: 0.3s;
+              bottom: 0;
+            }
+        
+            nav ul li a:hover:after {
+              width: 100%;
+            }
+        
+            .about-section {
+              padding: 60px 0;
+              background-color: #F1D3B2;
+              opacity: 0;
+              animation: fadeIn 1.5s ease-in-out forwards;
+            }
+        
+            .about-container {
+              max-width: 1200px;
+              margin: 0 auto;
+              padding: 0 20px;
+              text-align: center;
+            }
+        
+            .about-title {
+              font-size: 50px;
+              font-weight: 700;
+              color: #1f1f25;
+              background: linear-gradient(
+                120deg,
+                #1c99fe 20.69%,
+                #7644ff 50.19%,
+                #fd4766 79.69%
+              );
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              margin-bottom: 30px;
+            }
+        
+            .about-description {
+              font-size: 18px;
+              color: #202020;
+              margin-bottom: 50px;
+              line-height: 1.6;
+              width: 70%;
+              margin-left: auto;
+              margin-right: auto;
+            }
+        
+            .about-goals {
+              font-size: 20px;
+              color: #1d1d24;
+              text-align: center;
+              line-height: 1.8;
+              background-color: #F1D3B2;
+              padding: 40px;
+              border-radius: 10px;
+              box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+              max-width: 900px;
+              margin-left: auto;
+              margin-right: auto;
+            }
+        
+            .about-goals h2 {
+              font-size: 30px;
+              color: #fd4766;
+              margin-bottom: 20px;
+            }
+        
+            /* Portfolio Section */
+            .portfolio-section {
+              padding: 60px 0;
+              background-color: #F1D3B2;
+              opacity: 0;
+              animation: fadeIn 1.5s ease-in-out forwards;
+            }
+        
+            .portfolio-container {
+              max-width: 1200px;
+              margin: 0 auto;
+              padding: 0 20px;
+              text-align: center;
+            }
+        
+            .portfolio-title {
+              font-size: 40px;
+              font-weight: 600;
+              color: #1f1f25;
+              margin-bottom: 30px;
+              background: linear-gradient(
+                120deg,
+                #1c99fe 20.69%,
+                #7644ff 50.19%,
+                #fd4766 79.69%
+              );
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+        
+            .project-gallery {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 20px;
+              justify-content: center;
+            }
+        
+            .project {
+              background: #F1D3B2;
+              border-radius: 10px;
+              padding: 20px;
+              box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+              flex: 1 1 calc(30% - 20px);
+              min-width: 250px;
+              overflow: hidden;
+              transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+        
+            .project img {
+              width: 100%;
+              height: auto;
+              border-radius: 10px;
+              transition: transform 0.3s ease;
+            }
+        
+            .project:hover img {
+              transform: scale(1.05);
+            }
+        
+            .project:hover {
+              transform: translateY(-5px);
+              box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            }
+        
+            .project-title {
+              font-size: 22px;
+              color: #fd4766;
+              margin: 15px 0 10px;
+            }
+        
+            /* Fade-in animation */
+            @keyframes fadeIn {
+              to {
+                opacity: 1;
+              }
+            }
+        
+            /* Responsive Design */
+            @media (max-width: 768px) {
+              nav {
+                padding: 20px 40px;
+              }
+              nav ul li {
+                margin: 0 10px;
+              }
+              .about-description,
+              .about-goals,
+              .portfolio-title {
+                width: 90%;
+              }
+              .project {
+                flex: 1 1 calc(45% - 20px);
+              }
+            }
+        
+            @media (max-width: 600px) {
+              .project {
+                flex: 1 1 100%;
+              }
+            }
+            /* Footer Styles */
+        footer {
+          background-color: #201761;
+          color: #F8CEC0;
+          padding: 20px 0;
+          text-align: center;
+          position: relative;
+          bottom: 0;
+          width: 100%;
+        }
+        
+        .footer-container {
+          max-width: 1200px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+        
+        .footer-container p {
+          margin: 0;
+          font-size: 14px;
+        }
+        
+          </style>
+       </body>
+
+    
